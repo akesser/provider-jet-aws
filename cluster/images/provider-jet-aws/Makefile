@@ -6,7 +6,7 @@ include ../../../build/makelib/common.mk
 
 # ====================================================================================
 #  Options
-DOCKER_REGISTRY ?= crossplane
+DOCKER_REGISTRY ?= platformdkbcf
 IMAGE = $(BUILD_REGISTRY)/provider-jet-aws-$(ARCH)
 OSBASEIMAGE = scratch
 include ../../../build/makelib/image.mk
